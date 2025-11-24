@@ -41,7 +41,7 @@ This agent fetches procurement information for an organization. There are multip
 ![alt text](../../imgs/imgs_sales_a/Sales_a_step_13.png)
 8. Search for "xero-mcp-server-workshop-bsp:list-invoices" and select the tool by checking the box:
 ![alt text](../../imgs/imgs_a/Finance_a_step_7.png)
-9. Search for "xer-26aug:list-contacts" and select the tool by checking the box. Then click on **Add to agent**:
+9. Search for "xero-mcp-server-workshop-bsp:list-contacts" and select the tool by checking the box. Then click on **Add to agent**:
 ![alt text](../../imgs/imgs_a/Finance_a_step_8.png)
 10. Wait until the tools has been added successfully and double check that it is now shown in the **Toolset** section:
 ![alt text](../../imgs/imgs_a/Finance_a_step_9.png)
