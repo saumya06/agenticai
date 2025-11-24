@@ -59,8 +59,8 @@ This lab provides step-by-step instructions for instructors to set up Xero conne
    - In the app configuration page, scroll to the **Scopes** section
    - Select the following required 7 scopes:
      - `accounting.transactions`
-     - `accounting.contacts.read`
-     - `accounting.settings.read`
+     - `accounting.contacts`
+     - `accounting.settings`
      - `accounting.reports.read`
      - `payroll.settings`
      - `payroll.employees`
