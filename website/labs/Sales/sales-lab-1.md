@@ -5,7 +5,7 @@ parent: Sales Labs
 nav_order: 1
 ---
 
-# 🧾 Sales Agent: Automate sales oriented tasks with Agentic AI. (Lab 1: Building a simple multi tool agent)
+# 🧾 Sales Agent: Automate sales oriented tasks with Agentic AI. (Lab 1: Building a multi tool agent)
 
 ## Use Case Description
 

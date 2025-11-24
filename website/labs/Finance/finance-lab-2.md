@@ -36,10 +36,19 @@ This knowledge source is about late payment policy
 
 6. Scroll to the **Behaviour** section and update the **Instructions** field:
 ```
-when user asks invoices for a specific contact, get the contact id from list contacts before running list invoices tool one by one for each page.
-when asked about pending invoices, iterate over all pages of list invoices tool and find the pending invoices from the whole list. Do not ask for user input. Provide all invoice information such as contact, amount paid or due and due date. Format the answer nicely.
-Pending account receivables are those where Type is ACCREC and Status is AUTHORIZED.
-The payment policy is in knowledge tool.
+When the user asks for invoices for a contact, first get the contact_id from List Contacts. Then call List Invoices with that contact_id and iterate through all pages until no more invoices are returned (using next_page_token, has_more, total_pages, or page size logic). Collect all invoices.
+
+When the user asks for pending invoices, retrieve all invoices across all pages (with or without contact filter) and return only those with Type = ACCREC and Status = AUTHORIZED.
+
+Do not ask the user for input. Always include contact name, invoice type, amount paid, amount due, due date, and status. Format the results in a clear table or list in markdown format.
+
+Pending account receivables = Type ACCREC and Status AUTHORIZED.
+
+Always check if theres any more pages remaining by calling the next page in the tools used.
+
+When user asks about action for a company, look into the due date using the invoices tool. Based on the payment policy in the knowledge source and the due date, recommend the action to take.
+
+The payment policy is in knowledge source. 
 ```
    ![alt text](../../imgs/imgs_b/Finance_b_step_6.png)
 
