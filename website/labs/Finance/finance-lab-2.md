@@ -22,7 +22,7 @@ In lab 1b, we will add knowledge to our Finance agent in watsonx Orchestrate, an
 2. Click on **Upload files**. Then click on **Next**:
 ![alt text](../../imgs/imgs_b/Finance_b_step_2.png)
 
-3. Drag and drop the <a href="../pdfs/Late%20Payment%20Policy.pdf" target="_blank" rel="noopener">Late Payment Policy.pdf</a> and click on **Upload**:
+3. Drag and drop the <a href="../../pdfs/Late%20Payment%20Policy.pdf" target="_blank" rel="noopener">Late Payment Policy.pdf</a> and click on **Upload**:
 ![alt text](../../imgs/imgs_b/Finance_b_step_3.png)
 
 4. Fill the description as shown below and click on **Save**:
